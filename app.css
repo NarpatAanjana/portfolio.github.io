@@ -86,14 +86,14 @@ section{
 
 
 .showcase{
-    background-image: url('/wp.jpg');
+    background-image: url('Image/wp.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100vh;
 }
-
+I
 .navbar{
     position: fixed;
     width: 100%;
