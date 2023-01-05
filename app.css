@@ -500,6 +500,14 @@ section{
     margin: 10px 0 7px 0;
 
 }
+.teams .carousel .card p{
+    color: #ADA9BB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.teams .carousel .card strong{
+    color: #fec544;
+}
 .teams .carousel .card img{
     height: 150px;
     width: 150px;
@@ -528,7 +536,16 @@ section{
     transition: all 0.3s ease;
 }   
 
+/* certificate */
+
+#certificate {
+    color: #ADA9BB;
+    background: #08080A;
+    padding-bottom: 40px;
+}
+
 /*contact me*/
+
 .contact h1{
     color: #6e6e70;
     text-align: center;
@@ -586,6 +603,7 @@ section{
 }
 .contact .contact-content .right p{
     line-height: 1.6;
+    color: #ADA9BB;
 }
 .contact .contact-content .right .items{
     margin: 10px 0 ; 
@@ -603,6 +621,7 @@ section{
 }
 .contact .contact-content .right .items .item span{
     font-size: 14px;
+    
 }
 .contact .contact-content.right .links{
     overflow: hidden;
@@ -650,6 +669,3 @@ section{
     pointer-events: auto;
     bottom: 30px;
 }
-@media screen and (prefers-color-scheme: dark) { p { color: #fff; } }
-@media screen and (prefers-color-scheme: light) { p { color: #000; } }
-p { color: #000; @media screen and (prefers-color-scheme: dark) { color: #fff; } } 
