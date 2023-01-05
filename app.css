@@ -86,14 +86,14 @@ section{
 
 
 .showcase{
-    background-image: url('');
+    background-image: url(/Images/wp.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 100vh;
 }
-I
+
 .navbar{
     position: fixed;
     width: 100%;
@@ -650,3 +650,6 @@ I
     pointer-events: auto;
     bottom: 30px;
 }
+@media screen and (prefers-color-scheme: dark) { p { color: #fff; } }
+@media screen and (prefers-color-scheme: light) { p { color: #000; } }
+p { color: #000; @media screen and (prefers-color-scheme: dark) { color: #fff; } } 
